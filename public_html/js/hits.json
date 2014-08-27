@@ -1,0 +1,648 @@
+ {
+    "hits": [
+        {
+            "_type": "mapac",
+            "_id": "cont_corr_20",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "ID",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "cod_tit_1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "cod_tit_2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "data",
+                        "type": "date"
+                    },
+                    {
+                        "name": "corr",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "rend",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "datacalc",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac",
+            "_id": "interest_rates_curves_vola",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "data",
+                        "type": "date"
+                    },
+                    {
+                        "name": "currency",
+                        "type": "string"
+                    },
+                    {
+                        "name": "family",
+                        "type": "string"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string"
+                    },
+                    {
+                        "name": "maturity",
+                        "type": "string"
+                    },
+                    {
+                        "name": "tenor_MatSwp",
+                        "type": "string"
+                    },
+                    {
+                        "name": "strike",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "volatilità",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "data_elab",
+                        "type": "date"
+                    },
+                    {
+                        "name": "ID",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "check_SN",
+                        "type": "string"
+                    },
+                    {
+                        "name": "matricola",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac",
+            "_id": "parametri_correlazione",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "gruppo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "soglia_1",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "soglia_2",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_rilev",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "num_rilev_min",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "rend_min_liv",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "num_rilev_sgl_min",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "delta_front_storico",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "freq_vol",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "fin_vol",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "lambda",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "delta_corr_1",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "delta_corr_2",
+                        "type": "decimal"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac",
+            "_id": "rend_BL_livelli",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "cod_tit",
+                        "type": "string"
+                    },
+                    {
+                        "name": "data",
+                        "type": "date"
+                    },
+                    {
+                        "name": "rend",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "livello",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "elab_data",
+                        "type": "date"
+                    },
+                    {
+                        "name": "check_SN",
+                        "type": "string"
+                    },
+                    {
+                        "name": "matricola",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac",
+            "_id": "sysdiagrams",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "name",
+                        "type": "string"
+                    },
+                    {
+                        "name": "principal_id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "diagram_id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "version",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "definition",
+                        "type": "bytes"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac",
+            "_id": "tipi",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "ID_tipo",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Descrizione",
+                        "type": "string"
+                    },
+                    {
+                        "name": "ID_griglia",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac",
+            "_id": "volatilità_191",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "tipo_rec",
+                        "type": "string"
+                    },
+                    {
+                        "name": "data",
+                        "type": "date"
+                    },
+                    {
+                        "name": "cod_tit",
+                        "type": "string"
+                    },
+                    {
+                        "name": "gg_a_scadenza",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "moneyness",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "volatilità",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "data_elab",
+                        "type": "date"
+                    },
+                    {
+                        "name": "ID",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac",
+            "_id": "volatilità_191_changed",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "tipo_rec",
+                        "type": "string"
+                    },
+                    {
+                        "name": "data",
+                        "type": "date"
+                    },
+                    {
+                        "name": "cod_tit",
+                        "type": "string"
+                    },
+                    {
+                        "name": "gg_a_scadenza",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "moneyness",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "volatilità",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "data_elab",
+                        "type": "date"
+                    },
+                    {
+                        "name": "ID",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "rend",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "variazione",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "ID_key",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "beta",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "rend_beta",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "variazione_beta",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "matricola",
+                        "type": "string"
+                    },
+                    {
+                        "name": "note",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac",
+            "_id": "volatilità_191_standard_changed",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "tipo_rec",
+                        "type": "string"
+                    },
+                    {
+                        "name": "data",
+                        "type": "date"
+                    },
+                    {
+                        "name": "cod_tit",
+                        "type": "string"
+                    },
+                    {
+                        "name": "gg_a_scadenza",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "moneyness",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "volatilità",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "data_elab",
+                        "type": "date"
+                    },
+                    {
+                        "name": "rend",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "variazione",
+                        "type": "decimal"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac",
+            "_id": "volatilità_storica",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "cod_tit",
+                        "type": "string"
+                    },
+                    {
+                        "name": "data",
+                        "type": "date"
+                    },
+                    {
+                        "name": "volatilita",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "lambda",
+                        "type": "decimal"
+                    },
+                    {
+                        "name": "freq",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "fin_vol",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "data_elab",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac_bd",
+            "_id": "bd_anagrafica_cambi",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "codice_iso",
+                        "type": "string"
+                    },
+                    {
+                        "name": "descrizione_bbg",
+                        "type": "string"
+                    },
+                    {
+                        "name": "isin_pza",
+                        "type": "string"
+                    },
+                    {
+                        "name": "codice_uic",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "descrizione",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac_bd",
+            "_id": "BD_ANAGRAFICA_IND",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "TR",
+                        "type": "string"
+                    },
+                    {
+                        "name": "COD_IST",
+                        "type": "string"
+                    },
+                    {
+                        "name": "COD_SOC_IST",
+                        "type": "string"
+                    },
+                    {
+                        "name": "F1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "MON1",
+                        "type": "string"
+                    },
+                    {
+                        "name": "MON2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "DATA",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CAMBIO",
+                        "type": "string"
+                    },
+                    {
+                        "name": "F2",
+                        "type": "string"
+                    },
+                    {
+                        "name": "COD_SGR",
+                        "type": "string"
+                    },
+                    {
+                        "name": "NOME_FILE",
+                        "type": "string"
+                    },
+                    {
+                        "name": "DATA_CREAZIONE",
+                        "type": "date"
+                    },
+                    {
+                        "name": "DATA_INSERIMENTO",
+                        "type": "date"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac_bd",
+            "_id": "BD_ANAGRAFICA_SCARTATA",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "strumenti",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "ID_SGR",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "SGR",
+                        "type": "string"
+                    },
+                    {
+                        "name": "DATA",
+                        "type": "date"
+                    },
+                    {
+                        "name": "dw",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "official",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "bloomberg",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "bloomberg2",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac_bd",
+            "_id": "BD_ESITO_SCARICHI_EQ",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "strumenti",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "ID_SGR",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "SGR",
+                        "type": "string"
+                    },
+                    {
+                        "name": "DATA",
+                        "type": "date"
+                    },
+                    {
+                        "name": "dw",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "official",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "bloomberg",
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac_bd",
+            "_id": "BD_GESTIONE_GRUPPI",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "ID_TIPOLOGIA",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "DESCRIZIONE",
+                        "type": "string"
+                    },
+                    {
+                        "name": "DATA_INSERIMENTO",
+                        "type": "date"
+                    },
+                    {
+                        "name": "DATA_MODIFICA",
+                        "type": "date"
+                    },
+                    {
+                        "name": "NOME_TIPOLOGIA",
+                        "type": "string"
+                    },
+                    {
+                        "name": "GR",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "_type": "mapac_bd",
+            "_id": "BD_Maschere",
+            "_source": {
+                "columns": [
+                    {
+                        "name": "id",
+                        "type": "integer"
+                    },
+                    {
+                        "name": "Maschera",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Descrizione",
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    ]
+}
